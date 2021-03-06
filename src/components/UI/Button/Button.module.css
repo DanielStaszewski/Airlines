@@ -1,0 +1,43 @@
+.button{
+    font-size: 1.3rem;
+    letter-spacing: 0.4px;
+    text-transform: uppercase;
+    color: white;
+    background-color: #00b7ff;
+    padding: 0.8rem 1.4rem;
+    margin-top: 1.2rem;
+    border: none;
+    border-radius: 3%;
+    cursor: pointer;
+}
+
+.large{
+    font-size: 1.5rem;
+    padding: 1.4rem 2.5rem;
+    margin-bottom: 1.6rem;
+}
+
+.btn:hover{
+    background-color: #008bc2;
+}
+
+.disabled {
+    cursor: auto;
+    color: rgb(63, 63, 63);
+    background-color: rgb(122, 122, 122);
+}
+
+@media(max-width: 430px){
+    .button{
+        font-size: 1.4rem;
+        padding: 1.1rem 1.6rem;
+    }
+
+    .large {
+        font-size: 1.6rem;
+        padding: 1.4rem 5rem;
+        margin-top: 2rem;
+    }
+}
+
+

@@ -1,0 +1,51 @@
+.flights{
+    margin: 0 auto;
+    max-width: 900px;
+}
+
+.flights-list-title{
+    color: #1c2b39;
+    font-weight: 700;
+    padding: 0.8rem;
+    font-size: 2.3rem;
+}
+
+hr{
+    margin: 0.3rem 0 1rem 0;
+}
+
+.flights-list{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.flights-list--center{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    min-height: 30vh;
+}
+
+.no-flights-header {
+    color: #1c2b39;
+    font-size: 3rem;
+}
+
+
+@media(max-width: 430px){
+    .flights{
+        max-width: 360px;
+    }
+}
+
+
+
+
+
+
+

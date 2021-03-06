@@ -1,0 +1,139 @@
+.flights-list-item{
+    display: flex;
+    box-sizing: border-box;
+    padding: 0.5rem 1rem;
+    margin: 0.7rem 0;
+    background-color: #ffffff;
+    border-radius: 1%;
+    box-shadow: 0 2px 3px #dadada;
+}
+
+.flights-list-item > div:nth-child(1){
+    width: 80%;
+    border-right: 1px solid #cecece;
+}
+
+.flights-list-item > div:nth-child(2){
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 1rem;
+}
+
+.main-info{
+    display: flex;
+    padding: 2rem 4rem;
+}
+
+.list-item-title {
+    font-size: 2.2rem;
+    font-weight: 400;
+    color: #002172;
+}
+
+.list-item-connections{
+    width: 100%;
+    font-size: 1.6rem;
+    align-self: center;
+    color: #1c2b39;
+    text-align: right;
+}
+
+.line{
+    align-self: center;
+    width: 20rem;
+    margin: 0 2rem;
+    border-bottom: 2px solid #00b7ff;
+}
+
+.additional-info{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 1rem 4rem 2rem 4rem;
+}
+
+.route-heading{
+    flex-basis: 100%;
+    font-size: 1.3rem;
+    padding: 0.5rem 0;
+}
+
+.route-item{
+    color: #1c2b39;
+    font-size: 1.5rem;
+}
+
+.arrow{
+    font-size: 2rem;
+    padding: 0 0.8rem;
+    color: #00b7ff;
+}
+
+.price{
+    font-size: 2rem;
+    margin-bottom: 0.4rem;
+    color: #1c2b39;  
+}
+
+.price-info{
+    font-size: 1.1rem;
+    box-sizing: border-box;
+    color: #969dac;
+    text-align: center;
+    padding: 0.3rem 2rem;
+}
+
+@media(max-width: 430px){
+   
+    .flights-list-item > div:nth-child(1){
+        width: 70%;
+    }
+
+    .flights-list-item > div:nth-child(2){
+        width: 30%;
+    }
+
+    .main-info{
+        justify-content: start;
+        flex-wrap: wrap;
+        padding: 2rem 2rem;
+    }
+
+    .additional-info{
+        padding: 1rem 2rem 2rem 2rem;
+    }
+
+    .line{
+        width: 14rem;
+    }
+
+    .list-item-connections{
+        width: 100%;
+        text-align: left;
+        margin-top: 1.5rem;
+        font-size: 1.8rem;
+    }
+
+    .route-heading{
+        font-size: 1.5rem;
+        padding: 0.5rem 0;
+    }
+    
+    .route-item{
+        font-size: 1.8rem;
+    }
+
+    .price{
+        font-size: 2.5rem;
+    }
+
+    .price-info{
+        font-size: 1.2rem;
+        margin-bottom: 1.5rem;
+    }
+    
+}
+
